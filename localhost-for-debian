@@ -1,0 +1,4 @@
+1.nano /etc/ssh/sshd_config
+
+ PasswordAuthentication yes 
+ PermitRootLogin yes
