@@ -39,7 +39,8 @@ SSH免密码登陆 2013-03-12 10:53:03
     
     ==============================================================================================
     Summary:
-      1. localhost executes the :ssh-keygen -t rsa, 2.there are two files:one is the id_rsa ,and the other is id_rsa.pub.
+      1. localhost executes the :ssh-keygen -t rsa, 2.there are two files:one is the id_rsa ,and the other is id_rsa.pub. 
+      all in the /root/.ssh.-->(in localhost)
       copy the id_rsa.pub to the aim host and change name:authorized_keys which in the aim host:/root/.ssh.
       and execute the:chmod 755 /root/.ssh and chmod 644 authorized_keys.
       
